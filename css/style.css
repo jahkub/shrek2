@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../img/Old-Weathered-Red-Brick-Wall-Wallpaper-Mural.jpg);
+    background-color: rgba(0, 0, 0, 0.265);
+    background-size: 100%;
+}
+#tint {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.914);
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo {
+    height: 300px;
+    width: auto;
+}
+main {
+    height: 110vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+#moviep {
+    width: 400px;
+    height: auto;
+}
